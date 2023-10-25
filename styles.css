@@ -1,0 +1,38 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+}
+
+:root{
+  --johns-blue: #1e90ff;
+  --johns-font: .5rem;
+
+}
+body{
+  /* font-size: 20px; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+main {
+  display: flex;
+  
+}
+
+section > h2 {
+  border: var(--johns-font);
+  border-style: dashed;
+  border-color: var(--johns-blue);
+}
+
+#out-section{ 
+  color: aliceblue;
+}
+
+.out-cast{
+  color: greenyellow;
+}
